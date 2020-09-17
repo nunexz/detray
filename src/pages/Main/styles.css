@@ -1,0 +1,13 @@
+#container {
+    height: 100vh;
+    width: 100vw;
+    background: #ecf1f5 ;
+    padding: 0 50px;
+}
+
+.header {
+    height: 100px;
+    display: flex; /*coloca tudo pra ser alinhado lado a lado a menos que mude a direção*/
+    justify-content: center; /*Alinha na horizontal*/
+    align-items: center; /*Alinha na Vertical*/
+}

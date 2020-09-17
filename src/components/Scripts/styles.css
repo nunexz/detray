@@ -1,0 +1,40 @@
+.scripts {
+    overflow: hidden;
+    overflow-y: auto;
+    max-height: 90%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.scripts .row{
+    margin-bottom: 20px;
+    width: 90%;
+    padding: 10px;
+    display: flex;
+    border: 1px solid #000;
+}
+
+.scripts .row .script-tag {
+    width: 85%;
+}
+
+.scripts .row .script-tag .tag {
+    margin-bottom: 5px;
+}
+
+.scripts .row .script-tag h4 {
+    text-transform: uppercase;
+    color: blue;
+    font-size: 10px;
+}
+
+.scripts .row .actions {
+    justify-content: space-between;
+    display: flex;
+}
+
+.scripts .row .actions .copy {
+    display: flex;
+}

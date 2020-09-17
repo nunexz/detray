@@ -1,7 +1,7 @@
 import React from 'react'
 import Search from '../../components/Search';
 import Scripts from '../../components/Scripts';
-
+import './styles.css'
 
 const Main = () => {
     return (
